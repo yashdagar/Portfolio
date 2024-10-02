@@ -1,21 +1,24 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from "app/components/posts";
+import { Background } from "./components/background";
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+      <h1 className="mb-8 text-4xl font-semibold tracking-tighter">
+        Hi, I'm Yash Dagar
       </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+      <p className="mb-4 flex text-justify">
+        I'm a dedicated Flutter developer with a strong focus on creating
+        intuitive and visually appealing mobile applications. My projects
+        demonstrate my ability to work with various technologies, including
+        Firebase, REST APIs. <br />
+        <br />
+        Check out my projects on GitHub and feel free to reach out for
+        collaboration or to discuss potential opportunities.
       </p>
       <div className="my-8">
         <BlogPosts />
       </div>
     </section>
-  )
+  );
 }
