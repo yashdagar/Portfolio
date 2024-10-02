@@ -1,42 +1,9 @@
-# Portfolio Blog Starter
+Hi, I'm Yash Dagar
+I'm a dedicated Flutter developer with a strong focus on creating intuitive and visually appealing mobile applications. My projects demonstrate my ability to work with various technologies, including Firebase, REST APIs.
 
-This is a porfolio site template complete with a blog. Includes:
+Check out my projects on GitHub and feel free to reach out for collaboration or to discuss potential opportunities.
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
-
-## Demo
-
-https://portfolio-blog-starter.vercel.app
-
-## How to Use
-
-You can choose from one of the following two methods to use this repository:
-
-### One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
-
-### Clone and Deploy
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
-
-```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
-```
-
-Then, run Next.js in development mode:
-
-```bash
-pnpm dev
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+Apr 9, 2024    Phonix - Voice Phishing detection
+Feb 4, 2024    Trade Sphere - A Competetive Paper Trading App
+May 21, 2023   Flutter Chat App
+Feb 10, 2023   HealthyGrove - Plant Disease Detection
