@@ -1,29 +1,27 @@
-name: Deploy to GitHub Pages
+name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3   
-
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build   
- # Next.js app
-        run: npm run build && npm start
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy@v1
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v3 
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          folder: out
-          strategy: replace
-
+          version: 8 
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.pnpm
+          key: ${{ runner.os }}-pnpm-cache-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-cache-
+      - name: Install Dependencies
+        run: pnpm install 
+      - name: Run Tests 
+        run: pnpm test 
