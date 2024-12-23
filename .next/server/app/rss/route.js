@@ -1,0 +1,14 @@
+"use strict";(()=>{var e={};e.id=575,e.ids=[575],e.modules={399:e=>{e.exports=require("next/dist/compiled/next-server/app-page.runtime.prod.js")},517:e=>{e.exports=require("next/dist/compiled/next-server/app-route.runtime.prod.js")},2048:e=>{e.exports=require("fs")},5315:e=>{e.exports=require("path")},6322:(e,t,r)=>{r.r(t),r.d(t,{originalPathname:()=>g,patchFetch:()=>h,requestAsyncStorage:()=>d,routeModule:()=>u,serverHooks:()=>m,staticGenerationAsyncStorage:()=>c});var a={};r.r(a),r.d(a,{GET:()=>l});var n=r(8126),s=r(8158),o=r(9198),i=r(7862),p=r(7709);async function l(){let e=(await (0,p.u)()).sort((e,t)=>new Date(e.metadata.publishedAt)>new Date(t.metadata.publishedAt)?-1:1).map(e=>`<item>
+          <title>${e.metadata.title}</title>
+          <link>${i.F}/projects/${e.slug}</link>
+          <description>${e.metadata.summary||""}</description>
+          <pubDate>${new Date(e.metadata.publishedAt).toUTCString()}</pubDate>
+        </item>`).join("\n");return new Response(`<?xml version="1.0" encoding="UTF-8" ?>
+  <rss version="2.0">
+    <channel>
+        <title>My Portfolio</title>
+        <link>${i.F}</link>
+        <description>This is my portfolio RSS feed</description>
+        ${e}
+    </channel>
+  </rss>`,{headers:{"Content-Type":"text/xml"}})}let u=new n.AppRouteRouteModule({definition:{kind:s.x.APP_ROUTE,page:"/rss/route",pathname:"/rss",filename:"route",bundlePath:"app/rss/route"},resolvedPagePath:"/Users/yashdagar/WebProjects/Portfolio/app/rss/route.ts",nextConfigOutput:"",userland:a}),{requestAsyncStorage:d,staticGenerationAsyncStorage:c,serverHooks:m}=u,g="/rss/route";function h(){return(0,o.patchFetch)({serverHooks:m,staticGenerationAsyncStorage:c})}},7709:(e,t,r)=>{r.d(t,{p:()=>p,u:()=>i});var a=r(2048),n=r.n(a),s=r(5315),o=r.n(s);function i(){var e,t;return(t=e=o().join(process.cwd(),"app","projects","posts"),n().readdirSync(t).filter(e=>".mdx"===o().extname(e))).map(t=>{var r,a;let s,i,p,l,u;let{metadata:d,content:c}=(r=o().join(e,t),a=n().readFileSync(r,"utf-8"),i=(s=/---\s*([\s\S]*?)\s*---/).exec(a)[1],p=a.replace(s,"").trim(),l=i.trim().split("\n"),u={},l.forEach(e=>{let[t,...r]=e.split(": "),a=r.join(": ").trim();a=a.replace(/^['"](.*)['"]$/,"$1"),u[t.trim()]=a}),{metadata:u,content:p});return{metadata:d,slug:o().basename(t,o().extname(t)),content:c}})}function p(e,t=!1){let r=new Date;e.includes("T")||(e=`${e}T00:00:00`);let a=new Date(e),n=r.getFullYear()-a.getFullYear(),s=r.getMonth()-a.getMonth(),o=r.getDate()-a.getDate(),i="";i=n>0?`${n}y ago`:s>0?`${s}mo ago`:o>0?`${o}d ago`:"Today";let p=a.toLocaleString("en-us",{month:"short",day:"numeric",year:"numeric"});return t?`${p} (${i})`:p}},7862:(e,t,r)=>{r.d(t,{F:()=>a}),r(7709);let a="https://portfolio-blog-starter.vercel.app"},8126:(e,t,r)=>{e.exports=r(517)}};var t=require("../../webpack-runtime.js");t.C(e);var r=e=>t(t.s=e),a=t.X(0,[214],()=>r(6322));module.exports=a})();

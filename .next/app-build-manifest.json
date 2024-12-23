@@ -1,0 +1,52 @@
+{
+  "pages": {
+    "/not-found": [
+      "static/chunks/webpack-7042ccd18ad3a1c5.js",
+      "static/chunks/3e80fc9a-46552996d98f377e.js",
+      "static/chunks/923-4c64aaa2194d76da.js",
+      "static/chunks/main-app-eb5c83b0d7c5d822.js",
+      "static/chunks/app/not-found-328b2896ce71b227.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack-7042ccd18ad3a1c5.js",
+      "static/chunks/3e80fc9a-46552996d98f377e.js",
+      "static/chunks/923-4c64aaa2194d76da.js",
+      "static/chunks/main-app-eb5c83b0d7c5d822.js",
+      "static/chunks/app/_not-found/page-0e44cad918782e4d.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-7042ccd18ad3a1c5.js",
+      "static/chunks/3e80fc9a-46552996d98f377e.js",
+      "static/chunks/923-4c64aaa2194d76da.js",
+      "static/chunks/main-app-eb5c83b0d7c5d822.js",
+      "static/css/da629270d8a9a1bc.css",
+      "static/chunks/581-fbbcc3faf2ec14c2.js",
+      "static/chunks/app/layout-47b36f1af9195f06.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-7042ccd18ad3a1c5.js",
+      "static/chunks/3e80fc9a-46552996d98f377e.js",
+      "static/chunks/923-4c64aaa2194d76da.js",
+      "static/chunks/main-app-eb5c83b0d7c5d822.js",
+      "static/chunks/581-fbbcc3faf2ec14c2.js",
+      "static/chunks/app/page-d14dc5d6dad3d026.js"
+    ],
+    "/projects/[slug]/page": [
+      "static/chunks/webpack-7042ccd18ad3a1c5.js",
+      "static/chunks/3e80fc9a-46552996d98f377e.js",
+      "static/chunks/923-4c64aaa2194d76da.js",
+      "static/chunks/main-app-eb5c83b0d7c5d822.js",
+      "static/chunks/581-fbbcc3faf2ec14c2.js",
+      "static/chunks/471-bc18c6911371c7de.js",
+      "static/chunks/app/projects/[slug]/page-5b2d6b9e64f3968f.js"
+    ],
+    "/projects/page": [
+      "static/chunks/webpack-7042ccd18ad3a1c5.js",
+      "static/chunks/3e80fc9a-46552996d98f377e.js",
+      "static/chunks/923-4c64aaa2194d76da.js",
+      "static/chunks/main-app-eb5c83b0d7c5d822.js",
+      "static/chunks/581-fbbcc3faf2ec14c2.js",
+      "static/chunks/app/projects/page-63451d6dbc2cddaa.js"
+    ]
+  }
+}
