@@ -1,9 +1,12 @@
 {
+  "name": "portfolio",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/postcss": "4.0.0-alpha.13",
