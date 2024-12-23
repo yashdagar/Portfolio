@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v3 
+        with:
+          version: 8 
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.pnpm
+          key: ${{ runner.os }}-pnpm-cache-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-cache-
+      - name: Install Dependencies
+        run: pnpm install 
+      - name: Run Tests 
+        run: pnpm test 
