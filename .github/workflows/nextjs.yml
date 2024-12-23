@@ -23,5 +23,5 @@ jobs:
             ${{ runner.os }}-pnpm-cache-
       - name: Install Dependencies
         run: pnpm install 
-      - name: Run Tests 
-        run: pnpm start 
+      - name: Build
+        run: pnpm build 
