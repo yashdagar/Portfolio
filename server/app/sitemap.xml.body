@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://portfolio-blog-starter.vercel.app</loc>
+<lastmod>2024-12-23</lastmod>
+</url>
+<url>
+<loc>https://portfolio-blog-starter.vercel.app/projects</loc>
+<lastmod>2024-12-23</lastmod>
+</url>
+<url>
+<loc>https://portfolio-blog-starter.vercel.app/projects/flutter-chat-app</loc>
+<lastmod>2023-05-21</lastmod>
+</url>
+<url>
+<loc>https://portfolio-blog-starter.vercel.app/projects/healthy-grove</loc>
+<lastmod>2023-02-10</lastmod>
+</url>
+<url>
+<loc>https://portfolio-blog-starter.vercel.app/projects/phonix</loc>
+<lastmod>2024-04-09</lastmod>
+</url>
+<url>
+<loc>https://portfolio-blog-starter.vercel.app/projects/trade-sphere</loc>
+<lastmod>2024-02-04</lastmod>
+</url>
+</urlset>

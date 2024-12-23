@@ -1,0 +1,52 @@
+{
+  "pages": {
+    "/not-found": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/8a9271d1-dcbc5db39d790b5e.js",
+      "static/chunks/746-7977c8d93b586902.js",
+      "static/chunks/main-app-56593a1d0b83da9b.js",
+      "static/chunks/app/not-found-3ebd37d6665ef64c.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/8a9271d1-dcbc5db39d790b5e.js",
+      "static/chunks/746-7977c8d93b586902.js",
+      "static/chunks/main-app-56593a1d0b83da9b.js",
+      "static/chunks/app/_not-found/page-1c62c4071a427c8b.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/8a9271d1-dcbc5db39d790b5e.js",
+      "static/chunks/746-7977c8d93b586902.js",
+      "static/chunks/main-app-56593a1d0b83da9b.js",
+      "static/css/053d6fc8e587c7fc.css",
+      "static/chunks/390-6da4710718724584.js",
+      "static/chunks/app/layout-a03210346e7a36d7.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/8a9271d1-dcbc5db39d790b5e.js",
+      "static/chunks/746-7977c8d93b586902.js",
+      "static/chunks/main-app-56593a1d0b83da9b.js",
+      "static/chunks/390-6da4710718724584.js",
+      "static/chunks/app/page-65e37aa506aab7c7.js"
+    ],
+    "/projects/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/8a9271d1-dcbc5db39d790b5e.js",
+      "static/chunks/746-7977c8d93b586902.js",
+      "static/chunks/main-app-56593a1d0b83da9b.js",
+      "static/chunks/390-6da4710718724584.js",
+      "static/chunks/app/projects/page-df7d207cbdfabf00.js"
+    ],
+    "/projects/[slug]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/8a9271d1-dcbc5db39d790b5e.js",
+      "static/chunks/746-7977c8d93b586902.js",
+      "static/chunks/main-app-56593a1d0b83da9b.js",
+      "static/chunks/390-6da4710718724584.js",
+      "static/chunks/169-44d3de497779c181.js",
+      "static/chunks/app/projects/[slug]/page-75e059753c59845d.js"
+    ]
+  }
+}
